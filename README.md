@@ -17,11 +17,11 @@ npm i neo-observable-input
 ## Usage
 
 ```ts
-import { Component } from "@angular/core";
+import { Component, OnChanges } from "@angular/core";
 import { ObservableInputs } from "neo-observable-input";
 
 @Component({ template: "" })
-export class ExampleComponent {
+export class ExampleComponent implements OnChanges {
   private readonly inputs = new ObservableInputs();
 
   @Input()
