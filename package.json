@@ -1,0 +1,16 @@
+{
+  "name": "neo-observable-input",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Paul Draper <paulddraper@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+    "rxjs": "^7.0.0",
+    "tslib": "^2.0.0"
+  }
+}
