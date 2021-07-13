@@ -8,6 +8,12 @@ See https://github.com/angular/angular/issues/5689
 
 Similar to https://github.com/Futhark/ngx-observable-input and https://github.com/insidewhy/observable-input and https://github.com/insidewhy/observable-input, but works with type checking Angular inputs, and avoids the tree-shaking problems of decorators.
 
+## Install
+
+```
+npm i neo-observable-input
+```
+
 ## Usage
 
 ```ts
